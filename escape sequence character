@@ -1,0 +1,11 @@
+'''
+Hey Prtyush, Please dont remove this line
+Author: Pratyush
+Course: 100 Days Of code
+'''
+print ("hey I am a good boy \n and this viewer is also a good boy/girl")
+print ("hello world")
+ 
+ #this is a single line comment
+print("hello world!!!")   #this is a printing statement
+print("Hey", 6, 7, sep="~", end="007\n")
