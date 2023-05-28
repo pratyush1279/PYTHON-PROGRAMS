@@ -1,0 +1,12 @@
+print('he said,"I want to eat an apple"')
+print("he said,\"I want to eat an apple")
+apple = '''he said,
+hi harry
+hey I am good
+"I want to eat an apple'''
+print(apple)
+name= "pratyush"
+print(name[0])
+print (name[5])
+print(name[7])
+print(name[6])
