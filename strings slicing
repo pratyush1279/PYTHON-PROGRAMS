@@ -1,0 +1,11 @@
+names = "Harry,Shubham"
+print (len(names))
+fruit = "mango"
+len1 = len(fruit)
+print ("Mango is a", len1, "letter word")
+print(names[5:]) #slicing from start
+print(names[:5]) #slicing till end 
+print(names[2:6]) #slicing in between
+print(names[-8:]) #slicing using negative index #length of fruit - 3
+nm="harry"
+print(nm[-4:-2])
