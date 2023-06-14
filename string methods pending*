@@ -1,0 +1,19 @@
+a = "HArry!!!!!! pratYuSh !!!!!"
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a.rstrip("!"))
+print(a.replace("Harry","Pratyush"))
+print(a.replace ("Harry", "john"))
+print(a.split(" "))
+print(a.capitalize())
+Str1 = "Welcome to the Console"
+print(Str1.center(100))
+print(len(Str1))
+print(len(Str1.center(100)))
+str1="Welcome to console!!!"
+print(a.count("r")
+      
+print(str1.endswith("to",4,10))
+str1=" He's name is Dan. He is an honest man."
+print(str1.find("is"))
