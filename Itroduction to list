@@ -1,0 +1,29 @@
+marks = [1,6,3,4,5, "PP Master",True , 5,65,35,55,7]
+# print(marks)
+# print(type(marks))
+# print(marks[0])
+# print(marks[1])
+# print(marks[2])
+
+# print(marks[-3]) #Negative index
+# print(marks[len(marks)-3]) #positive index
+# print(marks[5-3]) #positive index
+# print(marks[2]) #positive index
+
+# if "PP Master"in marks:
+#   print("Yes")
+
+# else:
+#  print("No")
+
+# Same thing applies for strings as well!
+# if "aster" in "PP Master":
+#   print("Yes")
+
+# print(marks)
+# print(marks[1:-1])
+# print(marks[1:4])
+# print(marks[1:8:2])
+
+lst = [i*i for i in range(5) if i%2==0]
+print(lst)
