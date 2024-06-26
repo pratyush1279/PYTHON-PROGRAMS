@@ -1,0 +1,16 @@
+# countries = ("Germany", "Italy", "Spain", "Australia", "United Kingdom")
+# temp = list(countries)
+# temp.append("India") #add item
+# temp.pop(2)  #remove item
+# temp[3] = "Denmark" #change item
+# countries = tuple(temp)
+# print(countries)
+
+# countries = ("Pakistan", "Afganistan","Iran", "Iraq","Southi Arabia","Libya")
+# countries2 = ("Vietnam", "India", "China")
+# southeastAsia = countries + countries2 
+# print(southeastAsia)
+
+tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2, 1)
+res = tuple1.index(3)
+print('Index of 3 in tuple1 is:', res)
