@@ -1,0 +1,57 @@
+s = {2, 4, 2, 6}
+print(s)
+
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+
+harry = set()
+print(type(harry))
+
+for value in info:
+  print(value)
+
+# union
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul",
+          "Madrid"}
+cities3 = cities.union(cities2)
+print(cities3)
+
+# difference 
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul"}
+cities3 = cities.difference(cities2)
+print(cities3)
+
+#intersection
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul",
+  "Madrid"}
+cities3 = cities.intersection(cities2)
+print(cities3)
+
+# disjoint set
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul",
+  "Madrid"}
+print(cities.isdisjoint(cities2))
+print(cities.issuperset(cities2))
+print(cities.issubset(cities2))
+
+# add and update
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.add("Helsinki")
+print(cities)
+cities.update(["Mumbai","Kolkata","Dehradun"])
+
+# remove and discard
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.remove("Tokyo")
+print(cities)
+cities.discard("Madrid")
+
+# pop
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+item = cities.pop()
+print(cities)
+print(item)
